@@ -1,0 +1,17 @@
+env: production
+
+server:
+  port: 8080
+  workers: 2
+
+aws:
+  region: us-east-2
+  access_key_id: "AKIASWZMY6SP2CTWZTMI"
+  secret_access_key: "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"
+
+logging:
+  level: info
+
+cache:
+  enabled: true
+  ttl: 300
